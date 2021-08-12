@@ -1,0 +1,68 @@
+#resultTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#resultTable td, #resultTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#resultTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#resultTable tr:hover {background-color: #ddd;}
+
+#resultTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #18bc9b;
+  color: white;
+}
+
+#resultTable2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#resultTable2 td, #resultTable2 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#resultTable2 tr:nth-child(even){background-color: #f2f2f2;}
+
+#resultTable2 tr:hover {background-color: #ddd;}
+
+#resultTable2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #29b6cc;
+  color: white;
+}
+
+#resultTable3 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#resultTable3 td, #resultTable3 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#resultTable3 tr:nth-child(even){background-color: #f2f2f2;}
+
+#resultTable3 tr:hover {background-color: #ddd;}
+
+#resultTable3 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #29b6cc;
+  color: white;
+}

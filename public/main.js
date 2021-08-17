@@ -178,7 +178,9 @@ $(function() {
         } else if(remainingTermYears === 5){
           finalAge = document.getElementById("resultTable2").rows[5].cells[1].innerHTML;  
         } else if(remainingTermYears === 0){
-          finalAge = document.getElementById("resultTable").rows[35].cells[1].innerHTML;  
+          finalAge = document.getElementById("resultTable").rows[35].cells[1].innerHTML;
+          carryForwardPolicyYear = document.getElementById("resultTable").rows[35].cells[0].innerHTML;
+          totalAmountForRestTerm = document.getElementById("resultTable").rows[35].cells[6].innerHTML;
         }
         var value = totalAmountForRestTerm.replace('$', '');
 

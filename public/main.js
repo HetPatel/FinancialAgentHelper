@@ -175,6 +175,10 @@ $(function() {
           finalAge = document.getElementById("resultTable2").rows[15].cells[1].innerHTML;  
         } else if(remainingTermYears === 10){
           finalAge = document.getElementById("resultTable2").rows[10].cells[1].innerHTML;  
+        } else if(remainingTermYears === 5){
+          finalAge = document.getElementById("resultTable2").rows[5].cells[1].innerHTML;  
+        } else if(remainingTermYears === 0){
+          finalAge = document.getElementById("resultTable").rows[35].cells[1].innerHTML;  
         }
         var value = totalAmountForRestTerm.replace('$', '');
 
